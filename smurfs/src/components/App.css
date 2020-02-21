@@ -26,3 +26,100 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/* h1:hover {
+  color: blue;
+  transition: 3s;
+} */
+
+form {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+li {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  font-weight:bold;
+  border: 1px solid black;
+  border-radius:10px;
+  font-size:1rem;
+  width: 150%;
+  color:black;  
+  background-color: black;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.SmurfCard{
+  color:black;
+  background: white;
+  border: 1px white solid;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 2%;
+  font-weight: bold;
+}
+.SmurfCardp{
+  background: white;
+}
+
+
+
+.Smurf{
+  color:white;
+}
+
+.Smurf p{
+  color:white;
+}
+
+* {
+  background: black;
+}
+
+.HomeNav{
+  text-decoration: none;
+}
+input{
+  margin:2%; 
+  border-radius:50px;
+  color:white;
+}
+
+button {
+  background: black;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+}
+
+button:hover {
+  border: 1px solid white;
+  color: white;
+  transition: 3s;
+  box-shadow: 0px 0px 2px;
+}
+
+li:hover{
+  border: 1px solid white;
+  color: white;
+  transition: 3s;
+  box-shadow: 0px 0px 2px;
+}
